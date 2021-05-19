@@ -317,13 +317,14 @@ div.work-images-row {
 #contact-area {
     display: flex;
     flex-flow: row nowrap;
+    width: 1200px;
 }
 
 .contact-map-area {
     display: flex;
     flex-direction: column;
     height: 360px;
-    /* flex: 1; */
+    flex: 1;
 }
 
 .contact-form-area {
@@ -332,12 +333,11 @@ div.work-images-row {
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
-    /* flex: 2; */
+    flex: 2;
 }
 
 
 .contact_small_text {
-    width: 650px;
     font-family: ProximaNova;
     font-size: 16pt;
     color: rgb(90, 90, 90);
@@ -398,10 +398,10 @@ textarea {
 }
 
 
-.map{
+/* .map{
     width: 540px;
     height: 540px;
-}
+} */
 
 
 
@@ -411,7 +411,7 @@ textarea {
 
 
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 475px) {
 
     body {
         min-width: 320px;
